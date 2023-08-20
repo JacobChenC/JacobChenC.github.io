@@ -4,12 +4,12 @@
         <link>https://example.com/posts/</link>
         <description>所有文章 | 陈的错题集</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>FirstPost</title>
+    <title>PackMl 标准阅读</title>
     <link>https://example.com/firstpost/</link>
     <pubDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</pubDate>
     <author>Jacob Chen</author>
     <guid>https://example.com/firstpost/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[测试文章标题]]></description>
 </item>
 </channel>
 </rss>

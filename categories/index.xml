@@ -3,5 +3,13 @@
         <title>Categories - 分类 - 陈的错题集</title>
         <link>https://example.com/categories/</link>
         <description>Categories - 分类 - 陈的错题集</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://example.com/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</lastBuildDate><atom:link href="https://example.com/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>PLC</title>
+    <link>https://example.com/categories/plc/</link>
+    <pubDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</pubDate>
+    <author>Jacob Chen</author>
+    <guid>https://example.com/categories/plc/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

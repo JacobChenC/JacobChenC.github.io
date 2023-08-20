@@ -6,11 +6,11 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</lastBuildDate>
             <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>PackMl 标准阅读</title>
-    <link>https://example.com/firstpost/</link>
+    <title>PackML 标准阅读</title>
+    <link>https://example.com/packml-%E6%A0%87%E5%87%86%E9%98%85%E8%AF%BB/</link>
     <pubDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</pubDate>
     <author>Jacob Chen</author>
-    <guid>https://example.com/firstpost/</guid>
+    <guid>https://example.com/packml-%E6%A0%87%E5%87%86%E9%98%85%E8%AF%BB/</guid>
     <description><![CDATA[测试文章标题]]></description>
 </item>
 </channel>

@@ -4,12 +4,24 @@
         <link>https://example.com/tags/packml/</link>
         <description>PackML - 标签 - 陈的错题集</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/packml/" rel="self" type="application/rss+xml" /><item>
-    <title>PackML 标准阅读</title>
-    <link>https://example.com/packml-%E6%A0%87%E5%87%86%E9%98%85%E8%AF%BB/</link>
+    <title>PackML从会到不会——状态机（1）</title>
+    <link>https://example.com/packml%E4%BB%8E%E4%BC%9A%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%8A%B6%E6%80%81%E6%9C%BA1/</link>
     <pubDate>Sun, 20 Aug 2023 11:29:36 &#43;0800</pubDate>
     <author>Jacob Chen</author>
-    <guid>https://example.com/packml-%E6%A0%87%E5%87%86%E9%98%85%E8%AF%BB/</guid>
-    <description><![CDATA[测试文章标题]]></description>
+    <guid>https://example.com/packml%E4%BB%8E%E4%BC%9A%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%8A%B6%E6%80%81%E6%9C%BA1/</guid>
+    <description><![CDATA[<!--# PackML从会到不会——状态机（1）-->
+<blockquote>
+<p>最近又重新在想起标准化的东西。在工控行业要说设备标准化哪个最成功的——当属PackML。所以开此坑，用于记录学习（啃标准文档ANSI/ISA 88.00.02）的过程.</p>
+</blockquote>
+<h2 id="状态机unit--machine-states">状态机（Unit / Machine States）</h2>
+<h2 id="定义definition">定义（Definition）</h2>
+<blockquote>
+<p>A unit / machine state completely defines the current condition of a machine. A machine state is expressed as an ordered procedure, or programming routine, that can consist of one or more commands to other Procedural Elements1 or equipment entities, or consist of the status of a Procedural Element or equipment entity, or both. In performing the function specified by the state, the machine software will issue a set of commands to the machine Procedural Elements or equipment entities which in turn can report status.</p>
+</blockquote>
+<blockquote>
+<p>Only one major processing activity may be active in one Machine at any time.  The linear sequence of major activities will drive a strictly sequentially ordered flow of control from one State to the next State – no  more than one state of the base model is allowed to be active in one Machine at the same time.</p>
+</blockquote>
+<p>简而言之，就是设备状态反映了设备当前的状况。这个状态可以根据<em><strong>程序以及外部设备的命令</strong></em>(输入信号)来改变，同时需要将<em><strong>设备当前的状态</strong></em>（输出信号）反馈出来。</p>]]></description>
 </item>
 </channel>
 </rss>
